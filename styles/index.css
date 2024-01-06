@@ -3,6 +3,7 @@ body{
   padding: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .layout {
   background-image: url(../images/coffe-table.jpg);
@@ -24,7 +25,7 @@ body{
 .fa-chevron-down{
   cursor: pointer;
 }
-.fa-chevron-down:hover{
+.fa-eye:hover{
   transform: translateY(-4px);
   transition:0.3s;
   animation-play-state: paused;
@@ -53,6 +54,10 @@ li{
   list-style: none;
   cursor: pointer;
 }
+li:hover{
+ font-size: 20px;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
