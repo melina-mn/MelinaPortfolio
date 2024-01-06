@@ -14,7 +14,7 @@ body{
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 500px;
+  height: 700px;
   max-width: 1100px;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
@@ -59,8 +59,17 @@ li{
   align-items: center;
   padding: 0px 20px;
   background-color: bisque;
+
+}
+.about-prgh{
+  max-width: 450px;
+  max-height: 700px;
+  line-height: 25px;
+  text-align: justify;
 }
 
-.active {
-  font-size: 20px; /* Increase the font size for the active page */
+.element{
+ margin: 0;
 }
+
+
