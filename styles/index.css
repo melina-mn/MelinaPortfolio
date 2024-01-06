@@ -110,3 +110,27 @@ li:hover{
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
  }
+
+ .a-card{
+  border: 1px solid rgb(218, 193, 161);
+  background-color: rgba(238, 223, 201, 0.812);
+  border-radius: 5px;
+  padding: 8px;
+  text-align: justify;
+  font-size: 15px;
+  max-width: 250px;
+  max-height: 300px;
+  line-height: 15px;
+  margin: 5px 0;
+ }
+ .btn{
+  text-decoration: underline;
+ }
+ .btn:hover{
+  color: rgb(125, 50, 196);
+ }
+ .websites{
+  display: flex;
+  max-width: 550px;
+  justify-content: space-between;
+ }
