@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.layout {
+  background-image: url(../images/coffe-table.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 500px;
+  max-width: 1100px;
+  margin: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+}
+
+.fa-chevron-down{
+  cursor: pointer;
+}
+.fa-chevron-down:hover{
+  transform: translateY(-4px);
+  transition:0.3s;
+  animation-play-state: paused;
+}
+
+/* ABOUT ME PAGE */
+
+.about{
+  background-image: url(../images/vases.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  max-width: 1100px;
+  margin: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: bisque;
+}
+
+.active {
+  font-size: 20px; /* Increase the font size for the active page */
+}
