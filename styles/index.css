@@ -87,3 +87,26 @@ li:hover{
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
  }
+
+ .columns{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  max-width: 500px;
+ }
+
+ /* WORK SAMPLES PAGE */
+
+ .sample{
+  background-image: url(../images/work.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  max-width: 1100px;
+  margin: 5px;
+  font-family: 'Orbitron', sans-serif;
+ }
