@@ -125,12 +125,12 @@ color: brown;
   font-family: 'Orbitron', sans-serif;
  }
 
- .first-clmn{
-  margin: 0 10px;
+ .first-clmn, .sec-clmn, .third-clmn{
+  margin: 0 5px;
  }
+
  .a-card{
-  border: 1px solid rgb(218, 193, 161);
-  background-color: rgba(238, 223, 201, 0.812);
+  background-color: rgba(222, 222, 222, 0.812);
   border-radius: 5px;
   padding: 8px;
   text-align: justify;
