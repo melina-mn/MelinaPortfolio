@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f594942deb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <title>Melina - About Me</title>
+  <title>Melina - Contact Me</title>
 </head>
 <body>
   <div class="contact">
@@ -26,7 +26,27 @@
         </ul>
       </nav>
     </header>
-    
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" >
+        <div class="contact-right-title">
+          <h2>
+            Get in touch
+          </h2>
+          <hr>
+        </div>
+        <input type="hidden" name="access_key" value="28420638-675c-4d0f-bf5e-0a1822a73ad5">
+        <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+        <input type="email" name="email" placeholder="example@gmail.com" class="contact-input" required>
+        <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+        <button class="send-btn" type="submit"> Submit <i class="fa-solid fa-share"></i></button>
+        
+      </form>
+      <div class="icons-address">
+        <a href="https://github.com/melina-mn" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ad56b8;"></i></a>
+       <a href="https://www.linkedin.com/in/melina-mmn-6156642a8/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B0NoF1E3lTsC6jIessRun2A%3D%3D" target="_blank"> <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+      </div>
+      
+  </div>
   </div>
   <script src="script.js"></script>
 </body>

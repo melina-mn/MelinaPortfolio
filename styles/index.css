@@ -81,7 +81,7 @@ li:hover{
 }
  /* EXPERIENCES PAGE */
 
- .experiences{
+.experiences{
   background-image: url(../images/work.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -92,26 +92,26 @@ li:hover{
   max-width: 1100px;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
- }
+}
 
- .columns{
+.columns{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin: 20px;
   max-width: 780px;
   line-height: 13px;  
- }
+}
 
- span{
-color: brown;
- }
- h5{
+span{
+  color: brown;
+}
+h5{
   color: chocolate;
- }
- /* WORK SAMPLES PAGE */
+}
+/* WORK SAMPLES PAGE */
 
- .sample{
+.sample{
   background-image: url(../images/desk.avif
   );
   background-position: center;
@@ -123,13 +123,13 @@ color: brown;
   max-width: 1100px;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
- }
+}
 
- .first-clmn, .sec-clmn, .third-clmn{
+.first-clmn, .sec-clmn, .third-clmn{
   margin: 0 5px;
- }
+}
 
- .a-card{
+.a-card{
   background-color: rgba(222, 222, 222, 0.812);
   border-radius: 5px;
   padding: 8px;
@@ -139,25 +139,24 @@ color: brown;
   max-height: 300px;
   line-height: 15px;
   margin: 5px 0;
- }
- .btn{
+}
+.btn{
   text-decoration: underline;
- }
- .btn:hover{
+}
+.btn:hover{
   color: rgb(125, 50, 196);
- }
- .websites{
+}
+.websites{
   display: flex;
   max-width: 1050px;
   justify-content: flex-end;
   align-items: flex-end;
-  
   padding: 0 50px;
- }
+}
 
  /* CONTACT PAGE */
 
- .contact{
+.contact{
   background-image: url(../images/layout.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -168,4 +167,80 @@ color: brown;
   max-width: 1100px;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
- }
+}
+
+ /* CONTACT PAGE */
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  /* width: 200px; */
+  margin: 0 50px ;
+  font-family: 'Orbitron', sans-serif;
+  height: 100vh;
+
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input{
+  margin: 10px 0;
+  height: 25px;
+  border-radius: 20px;
+  background-color: rgba(255, 235, 205, 0.778);
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  padding: 10px;
+}
+.contact-input:hover{
+  border: none;
+  background-color: blanchedalmond;
+}
+ /* .mb-3{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+ } */
+
+hr{
+  border: none;
+  background-color: black;
+  height: 2px;
+
+}
+
+.send-btn{
+  border-radius: 20px;
+  /* width: 150px; */
+  height: 28px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(199, 217, 149);
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(0, 0, 0, 0.721);
+  margin: 10px 0;
+}
+
+.send-btn:hover{
+  color: #fff;
+  cursor: pointer;
+  /* text-shadow: 2px 2px 1px rgb(0, 0, 0) ; */
+  background-color: rgb(199, 217, 149);
+  box-shadow: 2px 1px 6px 2px rgb(206, 220, 105);
+} 
+
+.icons-address{
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
