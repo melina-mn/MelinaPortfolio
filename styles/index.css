@@ -67,11 +67,17 @@ li:hover{
   background-color: rgba(255, 228, 196, 0.593);
 
 }
+
+.about-title{
+  margin: 10px;
+}
 .about-prgh{
-  max-width: 450px;
+  max-width: 480px;
   max-height: 700px;
-  line-height: 25px;
+  line-height: 22px;
   text-align: justify;
+  font-size: 15px;
+  margin: 10px;
 }
  /* EXPERIENCES PAGE */
 
