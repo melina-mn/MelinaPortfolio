@@ -82,7 +82,7 @@ li:hover{
  /* EXPERIENCES PAGE */
 
  .experiences{
-  background-image: url(../images/exp.jpg);
+  background-image: url(../images/work.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,13 +99,21 @@ li:hover{
   justify-content: space-between;
   align-items: flex-start;
   margin: 20px;
-  max-width: 500px;
+  max-width: 780px;
+  line-height: 13px;  
  }
 
+ span{
+color: brown;
+ }
+ h5{
+  color: chocolate;
+ }
  /* WORK SAMPLES PAGE */
 
  .sample{
-  background-image: url(../images/work.jpg);
+  background-image: url(../images/desk.avif
+  );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,6 +125,9 @@ li:hover{
   font-family: 'Orbitron', sans-serif;
  }
 
+ .first-clmn{
+  margin: 0 10px;
+ }
  .a-card{
   border: 1px solid rgb(218, 193, 161);
   background-color: rgba(238, 223, 201, 0.812);
@@ -137,8 +148,11 @@ li:hover{
  }
  .websites{
   display: flex;
-  max-width: 550px;
-  justify-content: space-between;
+  max-width: 1050px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+  padding: 0 50px;
  }
 
  /* CONTACT PAGE */
